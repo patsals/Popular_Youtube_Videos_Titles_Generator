@@ -1,0 +1,16 @@
+{
+    "cron.jobs": {
+        "jobs": [
+            {
+                "name": "Youtube Data ETL",
+                "description": "Executes ETL process",
+                
+                "time": "*/10 * * * * *",
+                "action": {
+                    "type": "script",
+                    "script": "./test.sh"
+                }
+            },
+        ]
+    }
+}
